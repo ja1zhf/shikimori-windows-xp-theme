@@ -1,0 +1,100 @@
+* {
+    font-family: Tahoma;
+}
+
+body {
+    background: url(https://cdn.wallpaperhub.app/cloudcache/b/d/7/6/4/b/bd764bb25d49a05105060185774ba14cd2c846f7.jpg) no-repeat;
+    background-size: contain;
+    background-color: #324817;
+}
+
+.profile-head .avatar img {
+    animation: float 6s ease-in-out infinite;
+    content: url("https://media.tenor.com/ZwiXDI5sKe0AAAAM/lain-serial-experiments-lain.gif");
+}
+
+.subheadline {
+    color: #ffffff;
+    text-shadow: 0px 1px 2px #000000;
+    border: 2px solid #3B77BC;
+    border-radius: 10px 10px 0px 0px;
+    background-image: linear-gradient(to bottom, #3b77bc, #407cc1, #4581c6, #4a86cc, #4f8bd1);
+    margin-bottom: 0px !important;
+}
+
+.l-page {
+    background-color: transparent;
+}
+
+.c-history {
+    background-color: transparent;
+}
+
+.subheadline a,
+.subheadline a:before {
+    color: #ffffff;
+    text-shadow: 0px 1px 2px #000000;
+    padding-right: 0px;
+    margin-right: 50px;
+}
+
+.c-history .b-block_list {
+    background-color: #ffffff;
+    border: 2px solid #3B77BC;
+    border-top: none;
+    padding: 10px;
+}
+
+.profile-content .c-left {
+    background-color: #ffffff;
+    border: 2px solid #3B77BC;
+    padding: 10px 10px 30px 10px;
+    box-shadow: 5px 5px 5px rgba(32, 32, 32, 0.4);
+}
+
+.profile-content .c-right .cc-friends {
+    background-color: #ffffff;
+    border: 2px solid #3B77BC;
+    border-top: none;
+    padding: 5px 5px 0px 5px;
+}
+
+.profile-content .c-right .b-clubs {
+    background-color: #ffffff;
+    border: 2px solid #3B77BC;
+    border-top: none;
+    padding: 5px;
+}
+
+.profile-content .c-right .block .cc-favourites {
+    background-color: #ffffff;
+    border: 2px solid #3B77BC;
+    border-top: none;
+    padding: 5px;
+}
+
+.profile-content .c-right .m0,
+.profile-content .c-right .block,
+.profile-content .achievements,
+.c-history {
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 5px 5px rgba(32, 32, 32, 0.4);
+}
+
+.profile-content .achievements .cc-2,
+.profile-content .block:last-child>div:last-child {
+    background-color: #ffffff;
+    border: 2px solid #3B77BC;
+    border-top: none;
+    padding: 10px;
+}
+
+.profile-content .block:last-child>div:last-child .editor-container .subheadline {
+    border: none;
+    border-radius: 0px;
+    background-image: none;
+    background-color: transparent;
+    color: #456;
+    text-shadow: none;
+    padding-left: 5px;
+}
