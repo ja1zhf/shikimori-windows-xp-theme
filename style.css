@@ -3,14 +3,9 @@
 }
 
 body {
-    background: url(https://cdn.wallpaperhub.app/cloudcache/b/d/7/6/4/b/bd764bb25d49a05105060185774ba14cd2c846f7.jpg) no-repeat;
+    background: url(https://raw.githubusercontent.com/Ja1z666/shikimori-windows-xp-theme/main/bg.png) no-repeat;
     background-size: contain;
-    background-color: #324817;
-}
-
-.profile-head .avatar img {
-    animation: float 6s ease-in-out infinite;
-    content: url("https://media.tenor.com/ZwiXDI5sKe0AAAAM/lain-serial-experiments-lain.gif");
+    background-color: #425a0e;
 }
 
 .subheadline {
@@ -22,14 +17,6 @@ body {
     margin-bottom: 0px !important;
 }
 
-.l-page {
-    background-color: transparent;
-}
-
-.c-history {
-    background-color: transparent;
-}
-
 .subheadline a,
 .subheadline a:before {
     color: #ffffff;
@@ -38,13 +25,67 @@ body {
     margin-right: 50px;
 }
 
-.c-history .b-block_list {
+.l-page {
+    background-color: transparent;
+}
+
+/* Profile Block */
+.profile-head {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.profile-head .c-brief,
+.profile-head .c-info {
+    width: 70%;
+    box-shadow: 5px 5px 5px rgba(32, 32, 32, 0.4);
+}
+
+.profile-head .c-brief {
+    border: 2px solid #3B77BC;
+    border-radius: 10px 10px 0px 0px;
+    background-image: linear-gradient(to bottom, #3b77bc, #407cc1, #4581c6, #4a86cc, #4f8bd1);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-head .c-brief .avatar {
+    margin: 0px 15px 0px 0px !important;
+}
+
+.profile-head .c-brief .avatar img {
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+
+.profile-head .c-brief .avatar .profile-actions a:before {
+    color: #ffffff;
+}
+
+.profile-head .c-brief .head h1,
+.profile-head .c-brief .head span {
+    color: #ffffff;
+}
+
+.c-history {
+    background-color: transparent;
+    position: absolute !important;
+    right: 15px;
+}
+
+.c-history .b-block_list,
+.profile-head .c-info {
     background-color: #ffffff;
     border: 2px solid #3B77BC;
     border-top: none;
     padding: 10px;
 }
 
+/* Content Block */
 .profile-content .c-left {
     background-color: #ffffff;
     border: 2px solid #3B77BC;
@@ -81,6 +122,10 @@ body {
     box-shadow: 5px 5px 5px rgba(32, 32, 32, 0.4);
 }
 
+.profile-content .block:last-child {
+    box-shadow: 5px 5px 5px rgba(32, 32, 32, 0.4);
+}
+
 .profile-content .achievements .cc-2,
 .profile-content .block:last-child>div:last-child {
     background-color: #ffffff;
@@ -99,8 +144,22 @@ body {
     padding-left: 5px;
 }
 
+/* Copyright*/
 .copyright::before {
     font-weight: bold;
     color: #202020;
     content: "theme design by Ja1z666 on GitHub ";
+}
+
+/* Click Effect */
+.profile-content .cc-friends .b-user a img:active,
+.profile-content .b-clubs .b-club a img:active,
+.profile-content .cc-favourites article img:active {
+    filter: opacity(60%);
+}
+
+.profile-content .cc-friends .b-user,
+.profile-content .b-clubs .b-club,
+.profile-content .cc-favourites article {
+    background-color: #3B77BC;
 }
