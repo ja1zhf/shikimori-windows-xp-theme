@@ -22,7 +22,15 @@ body {
     color: #ffffff;
     text-shadow: 0px 1px 2px #000000;
     padding-right: 0px;
-    margin-right: 50px;
+    margin-right: 90px;
+}
+
+.subheadline:before {
+    position: absolute;
+    content: url('https://svgshare.com/i/t2M.svg');
+    transform: scale(0.45);
+    top: -14px;
+    right: -38px;
 }
 
 .l-page {
